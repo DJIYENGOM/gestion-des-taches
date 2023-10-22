@@ -1,0 +1,135 @@
+/* Réinitialisation des styles par défaut */
+body, h1, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.supprimer{
+    background-color: red;
+}
+.marquer{
+    background-color: #4CAF50;
+}
+
+
+/* Style de l'en-tête */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+ 
+}
+
+header h6 {
+    font-size: 16px;
+}
+
+/* Style du formulaire */
+.form-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.task-form {
+    
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    color: white;
+    cursor: pointer;
+  
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.task-list{
+    margin-top: 30px;
+
+}
+
+
+.info{
+    display: flex;
+    justify-content: 10px;
+}
+
+
+.task{
+    margin-top: 6%;
+    background-color: white;
+    width: 800px;
+  
+    
+}
+
+.task .info {
+    display: flex;
+    flex-direction: row; /* Alignez les éléments horizontalement */
+    justify-content: space-between; /* Espacez-les horizontalement */
+}
+
+.task h3 {
+    text-align: center; /* Placez le titre en haut */
+}
+
+.task .info p {
+    margin: 0;
+}
+
+.task .info input[type="submit"] {
+  
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%
+}
+a.retour {
+    margin-left: 50%;
+    text-decoration: none;
+
+}
