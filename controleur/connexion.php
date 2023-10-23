@@ -3,8 +3,7 @@
 
 include('../database.php');
 if(isset($_POST['connexion'])){
-   $email=trim($_POST['email']); 
-   //trim permet de supprimer les espaces en debut et fin d'une chaine caractere
+   $email=trim($_POST['email']); //trim permet de supprimer les espaces en debut et fin d'une chaine caractere
   
    $mdp=trim(md5($_POST['password']));
    $query="SELECT * FROM users WHERE email= ? AND mot_de_passe= ?"; // requete pour chercher les données de la base de donnée

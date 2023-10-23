@@ -27,6 +27,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+  
  
 }
 
@@ -132,4 +133,7 @@ a.retour {
     margin-left: 50%;
     text-decoration: none;
 
+}
+.deconnecter{
+    top: 50%;
 }

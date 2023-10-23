@@ -55,6 +55,7 @@
                 <div class="form-group">
                 <input type="submit" name="connexion" value="Se connecter">
                 </div>
+                <div class='oubier'> <a href="mdp_oublie.php">mot de passe oublié</a></div>
             </form>
         </div>
 

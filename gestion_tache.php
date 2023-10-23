@@ -44,7 +44,8 @@ if (!empty( $_SESSION['info'])){
             <header>
                  Gestion de mes Taches <h6><i><?= $_SESSION['info'][1]?></i></h6>
             </header>
-           
+            
+
             <div class="task-list">
             <?php foreach ($tasks as $key=>$tache) {   $_SESSION['tache']=$tache;    ?>
                 <div class="task">
@@ -61,6 +62,8 @@ if (!empty( $_SESSION['info'])){
                            </div> 
                      </form>
                 </div>
+                <div class='deconnecter'><a href="deconnecter.php">Deconnecter</a></div>
+
                 <?php } ?>
           
                          
